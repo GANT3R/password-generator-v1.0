@@ -96,7 +96,6 @@ window = sg.FlexForm('Password generator', grab_anywhere=False)
 window.Layout(layout)
 
 while True:
-    sg.theme('DarkGray12')
     event, values = window.read()
     if event == '-GEN-':        #values["NUMB_BOX"] == True:
         password = ''
