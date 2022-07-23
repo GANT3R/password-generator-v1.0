@@ -93,6 +93,7 @@ def temp_3():
 window = sg.FlexForm('Password generator', grab_anywhere=False)
 window.Layout(layout)
 
+
 while True:
     event, values = window.read()
     if event == '-GEN-':        #values["NUMB_BOX"] == True:
