@@ -9,8 +9,6 @@ letters_small = letters.lower()
 numbers = '0123456789'
 symbols = '!@$%-*&'
 password_mix = ''
-t = True
-f = False
 
 
 components_left = [
